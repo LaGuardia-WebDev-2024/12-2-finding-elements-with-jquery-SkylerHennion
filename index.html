@@ -21,6 +21,7 @@
       <li>Hooved feet</li>
     </ul>
     
+    <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/streams/2013/January/130114/1B5514190-tdy-130113-Eli-alien-baby-01.jpg">
     
     <button>
       click on it
@@ -28,15 +29,18 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
-    
+    $("img").hide();
     $("button").click(function(){
       $("li").text("walter is a poopy head")
       $("h1").text("WHY walter is a poopy head:")
       $(".animal").text("walters")
+      $("img").show(1000);
     });
+      
+      
       
     </script>
   </body>
 </html>
 
-<!--- Taken From Khan Academy HTML/JS: Making webpages interactive with jQuery https://www.khanacademy.org/computing/computer-programming/html-js-jquery-->
+
