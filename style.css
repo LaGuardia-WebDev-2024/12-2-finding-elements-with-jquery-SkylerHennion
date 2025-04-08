@@ -1,7 +1,14 @@
-body{
+body {
   background-color: azure;
+  font-size:20px;
 }
 
-li{
-  font-style: italic;
+li {
+  font-family: Courier new;
+  color:red;
+}
+
+
+button{
+  font-size:50px;
 }

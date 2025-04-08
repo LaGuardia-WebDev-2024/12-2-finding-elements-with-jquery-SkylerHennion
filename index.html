@@ -20,11 +20,21 @@
       <li>Long mane</li>
       <li>Hooved feet</li>
     </ul>
+    
+    
+    <button>
+      click on it
+    </button>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
     
-    
+    $("button").click(function(){
+      $("li").text("walter is a poopy head")
+      $("h1").text("WHY walter is a poopy head:")
+      $(".animal").text("walters")
+    });
+      
     </script>
   </body>
 </html>
